@@ -1,0 +1,44 @@
+.banner {
+    position: relative;
+    height: 50vh;
+    background: url("https://giupban.com.vn/wp-content/uploads/2019/09/hinh-anh-mua-dong-18.jpg") center center ;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchBut {
+    background-color: rgb(255, 255, 255) !important;
+    color: #ff7779 !important;
+    text-transform: inherit !important;
+    font-weight: 900 !important;
+}
+
+.banner__info {
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    padding-top: 10vh;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    width: 300px;
+}
+
+.banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #ff7779;
+}
+
+.banner__info > h5 {
+    margin-top: 10px;
+}
