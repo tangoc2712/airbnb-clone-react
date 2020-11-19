@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aliceblue;
-    /* top: 0;
+    background-color: #ffeeee;
+    top: 0;
     position: sticky;
-    z-index: 100; */
+    z-index: 100;
     width: 100%;
 
 }
@@ -24,13 +24,13 @@
     max-width: fit-content;
     padding: 10px;
     height: 30px;
-    border: 1px solid lavender;
+    border: 1px solid rgb(66, 64, 64);
     border-radius: 999px;
 }
 
 .header__center > input {
     border: none;
-    background-color: aliceblue;
+    background-color:  #ffeeee;
     padding: 10px;
     outline-width: 0;
     width: 250px;

@@ -13,7 +13,8 @@
     background-color: rgb(255, 255, 255) !important;
     color: #ff7779 !important;
     text-transform: inherit !important;
-    font-weight: 900 !important;
+    font-weight: 700 !important;
+    outline-width: 0 !important;
 }
 
 .banner__info {

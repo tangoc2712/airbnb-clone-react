@@ -39,10 +39,10 @@
     text-transform: inherit !important;
     background-color: #ff7779;
     color: white;
-    font-weight: 600;
+    font-weight: 600 ;
 }
 
 .search > button:hover {
-    background-color: white;
-    color: #ff7779;
+    background-color: #f1c0c1;
+    color: #f86c6f;
 }
