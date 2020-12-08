@@ -1,0 +1,80 @@
+.SearchResult {
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.SearchResult :hover {
+    opacity: 0.9;
+}
+
+.SearchResult > img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.SearchResult__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.SearchResult__info > p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.SearchResult__info > h1 {
+    margin-bottom: 30px;
+}
+
+.SearchResult__info > button {
+    border-radius: 30px;
+    text-transform: inherit;
+    margin: 5px;
+}
+
+.SearchResult__heart {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.SearchResult__infoTop {
+    width: 40vw;
+}
+
+.SearchResult__infoTop > h3 {
+    font-weight: 600;
+    margin-top: 10px;
+    color: rgb(76, 40, 88);
+}
+
+.SearchResult__infoTop > p {
+    margin-top: 10px;
+    font-size: 13;
+    color: rgb(85, 84, 84);
+    margin-bottom: 10px;
+}
+
+.SearchResult__infoBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SearchResult__star {
+    color: red;
+    padding-right: 5px;
+}
+
+.SearchResult__stars {
+    display: flex;
+    align-items: center;
+}
