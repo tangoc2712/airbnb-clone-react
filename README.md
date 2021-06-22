@@ -1,6 +1,27 @@
-# Airbnb clone react app
+# Airbnb clone Eeact app
 
-This is a project that I am working on as instructed on the Internet, I'm trainning React Skills.
+### Clone git repo
 
+```
+git clone https://github.com/tangoc2712/airbnb-clone-react.git
+```
 
-Hoàn thiện nốt phần /search đi nhé!
+### Run
+
+```
+cd airbnb-clone
+npm install
+npm start
+```
+
+## This is home page
+
+> ![Image](./assets/home.png)
+
+## Search page
+
+> ![Image](./assets/list.png)
+
+## Reference
+
+Clever Programming Youtube Channel
